@@ -10,7 +10,7 @@ glob = multiprocessing.Value('i',0)
 def generate():
     arr = []
     for i in range(arrsize):
-        arr.append(random.randint(0,100000))
+        arr.append(random.randint(0,100000000))
     return arr
 def findmax(start,stop,A,glob):
     for i in range (start,stop):
