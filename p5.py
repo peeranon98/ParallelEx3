@@ -2,7 +2,7 @@ import random
 import time
 import multiprocessing
 import numpy
-arrsize = 1000
+arrsize = 1000000
 NUM_CPU = 4
 chunksize = int(arrsize/NUM_CPU)
 lock = multiprocessing.Lock()
