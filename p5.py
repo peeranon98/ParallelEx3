@@ -9,7 +9,7 @@ lock = multiprocessing.Lock()
 def generate():
     arr = []
     for i in range(arrsize):
-        arr.append(random.randint(0,100000))
+        arr.append(random.randint(0,100000000))
     return arr
 def generateC():
 	manager = multiprocessing.Manager()
